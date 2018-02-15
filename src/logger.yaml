@@ -1,0 +1,9 @@
+---
+Name: logger
+Description: Allow job listing and log streaming
+Rules:
+  namespace:
+    default:
+      policy:
+        - list-jobs
+        - read-logs

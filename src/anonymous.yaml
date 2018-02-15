@@ -1,0 +1,11 @@
+---
+Name: anonymous
+Description: Deny access to anonymous requests
+Rules:
+  namespace:
+    default:
+      policy: deny
+  agent:
+    policy: deny
+  node:
+    policy: deny

@@ -1,0 +1,8 @@
+---
+Name: job-requester
+Description: Submitting jobs, for CI/CD tokens
+Rules:
+  namespace:
+    default:
+      policy:
+        - submit-job

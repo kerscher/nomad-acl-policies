@@ -1,0 +1,13 @@
+---
+Name: developer
+Description: For developers interacting with Nomad
+Rules:
+  namespace:
+    default:
+      policy:
+        - dispatch-job
+        - list-jobs
+        - read-fs
+        - read-job
+        - read-logs
+        - submit-job

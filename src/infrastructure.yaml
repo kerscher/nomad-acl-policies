@@ -1,0 +1,8 @@
+---
+Name: infrastructure
+Description: Agent and node management
+Rules:
+  agent:
+    policy: write
+  node:
+    policy: write
